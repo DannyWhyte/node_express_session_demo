@@ -14,16 +14,13 @@ for example import the following cUrl's:
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: ff2b85bf-f15e-9f36-6fea-5736046f43f3' \
-  -d '{
-	"data":{
-		"loginId":"admin",
-		"password":"pass@123"
-	}
-}'
+  -d '{"data":{"loginId":"admin","password":"pass@123"}}'
+
+
+
 
 2) test api
 ````````````
-
     curl -X POST \
   http://localhost:8004/api/test \
   -H 'cache-control: no-cache' \
